@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mywavefx</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background: #0f0f1a;
+      color: #c2a9ff;
+      text-shadow: 0 0 4px #9a6dff;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #e2d3ff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #5a4b82;
+      padding-bottom: 0.3rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .item {
+      margin-bottom: 0.5rem;
+    }
+    .vhs-glow {
+      animation: flicker 1.5s infinite alternate;
+    }
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.8; }
+      100% { opacity: 1; }
+    }
+    a {
+      color: #b38aff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="vhs-glow">mywavefx</h1>
+
+    <div class="section">
+      <h2>Обо мне</h2>
+      <p>Я свадебный видео-монтажёр и просто хороший парень. На стримах монтирую эдиты, смотрю фильмы, общаюсь и играю в игры через облачный гейминг. Мечтаю о мощном игровом ПК, ведь мой Mac не тянет ничего.</p>
+    </div>
+
+    <div class="section">
+      <h2>Мой сетап</h2>
+      <div class="item"><strong>Вебка:</strong> Logitech StreamCam</div>
+      <div class="item"><strong>Микрофон:</strong> Fifine AM8</div>
+      <div class="item"><strong>Монитор:</strong> Thunderobot KQ34C144C</div>
+      <div class="item"><strong>Мышки:</strong> Magic Mouse и Thunderobot ML702 SE</div>
+      <div class="item"><strong>Клавиатура:</strong> Keychron K8 [K8J1]</div>
+      <div class="item"><strong>Компьютер:</strong> Mac Mini 2023 M2</div>
+    </div>
+
+    <div class="section">
+      <h2>Контакты</h2>
+      <p>Добавь сюда ссылки на соцсети, если нужно. Например:</p>
+      <ul>
+        <li><a href="#">Twitch</a></li>
+        <li><a href="#">YouTube</a></li>
+        <li><a href="#">Telegram</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
